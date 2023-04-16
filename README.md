@@ -1,6 +1,6 @@
 # Laravel 8 FindMyTelU Project = Places Map with Google Maps API and Adminpanel
 
-## In collaborations with Zahwa Dewi Artika
+ In collaborations with Zahwa Dewi Artika
 
 This project is transformed [free WordPress theme Directory Starter](https://wpgeodirectory.com/downloads/directory-starter/) into fully manageable Laravel 8 project with adminpanel generated with [QuickAdminPanel](https://quickadminpanel.com) to manage all the places.
 
@@ -9,7 +9,7 @@ Due to course project assignment "Aplikasi Berbasis Web" in semester 6 = Create 
 
 ## Features
 
-- __Adminpanel__ with administrator user managing places, categories, and user settings.
+- __Adminpanel__ with administrator user managing places, categories, and user settings with full access.
 - __Registration__ for new members who are defaulted to user status.
 - Adminpanel uses Google Places API with autocomplete to __automatically get coordinates from address__
 - Front-end uses Google Maps API to __view the map of places__
@@ -23,10 +23,6 @@ Due to course project assignment "Aplikasi Berbasis Web" in semester 6 = Create 
 
 - - - - -
 
-![Laravel Places Google Maps Autocomplete Address](https://laraveldaily.com/wp-content/uploads/2019/12/Screen-Shot-2019-12-11-at-11.00.12-AM.png)
-
-- - - - -
-
 ## How To Use
 
 - Clone the repository with __git clone__
@@ -35,9 +31,8 @@ Due to course project assignment "Aplikasi Berbasis Web" in semester 6 = Create 
 - Run __php artisan key:generate__
 - Run __php artisan migrate --seed__ (it has some seeded data for your testing)
 - In your __.env__ file add your Google Maps API key: `GOOGLE_MAPS_API_KEY=AIzaSyBi2dVBkdQSUcV8_xxxxxxxxxxxx`
-- That's it: launch the main URL. 
 - You can login to adminpanel by going go `/login` URL and login with credentials __admin@admin.com__ - __password__
-- Click __Register__ on top right to add new place owner and their places
+- Click __Register__ to access the website as a user
 
 
 - - - - -
@@ -49,9 +44,7 @@ Due to course project assignment "Aplikasi Berbasis Web" in semester 6 = Create 
 
 - - - - -
 
-
 ## References and Credit to
 
 - Laravel-Shop-Maps-QuickAdminPanel (https://github.com/LaravelDaily/Laravel-Shops-Map-QuickAdminPanel)
 - QuickAdminPanel (https://quickadminpanel.com)
-- 
