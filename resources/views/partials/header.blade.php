@@ -2,7 +2,7 @@
     <div class="container">
         <div class="site-logo-wrap">
             <hgroup>
-                <h1 class='site-title site-title-no-desc'> <a  style="color:#FFFFFF;" href='{{ route('home') }}' title='{{ config('app.name', 'FindMyTelU') }}' rel='home'>{{ config('app.name', 'FindMyTelU') }}</a></h1>
+                <h1 class='site-title site-title-no-desc'> <a  style="color:#FFFFFF;" href='{{ route('home') }}' title="FindMyTelU") }}' rel='home'>FindMyTelU</a></h1>
             </hgroup>
         </div>
         <nav id="primary-nav" class="primary-nav" role="navigation">
@@ -12,7 +12,7 @@
                     <li class="gd-menu-item menu-item menu-item-type-post_type_archive"><a href="{{ route('register') }}">Register</a></li>
                 @else
                     
-                    <li class="gd-menu-item menu-item menu-item-type-post_type_archive"><a href="{{ route('admin.shops.index') }}">{{ Auth::user()->name }}</a></li> 
+                    <li class="gd-menu-item menu-item menu-item-type-post_type_archive"><a href="{{ route('admin.places.index') }}">{{ Auth::user()->name }}</a></li> 
                     <!-- 
                     <li class="gd-menu-item menu-item menu-item-type-post_type_archive"><a href="#" onclick="event.preventDefault(); document.getElementById('logoutform').submit();">Logout</a></li>
                     <form id="logoutform" action="{{ route('logout') }}" method="POST" style="display: none;">

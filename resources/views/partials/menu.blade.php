@@ -54,13 +54,13 @@
                     </a>
                 </li>
             @endcan
-            @can('shop_access')
+            @can('place_access')
                 <li class="nav-item">
-                    <a href="{{ route("admin.shops.index") }}" class="nav-link {{ request()->is('admin/shops') || request()->is('admin/shops/*') ? 'active' : '' }}">
-                        <i class="fa-fw fas fa-shopping-basket nav-icon">
+                    <a href="{{ route("admin.places.index") }}" class="nav-link {{ request()->is('admin/places') || request()->is('admin/places/*') ? 'active' : '' }}">
+                        <i class="fa-fw fas fa-placeping-basket nav-icon">
 
                         </i>
-                        {{ trans('cruds.shop.title') }}
+                        {{ trans('cruds.place.title') }}
                     </a>
                 </li>
             @endcan

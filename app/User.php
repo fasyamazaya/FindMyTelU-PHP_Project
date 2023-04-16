@@ -54,9 +54,9 @@ class User extends Authenticatable
         });
     }
 
-    public function shops()
+    public function places()
     {
-        return $this->hasMany(Shop::class, 'created_by_id', 'id');
+        return $this->hasMany(Place::class, 'created_by_id', 'id');
     }
 
     public function getEmailVerifiedAtAttribute($value)

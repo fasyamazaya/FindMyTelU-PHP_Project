@@ -5,7 +5,7 @@
         <div class="col-lg-12">
             <div class="card">
                 <div class="card-header">
-                    Dashboard
+                    
                 </div>
 
                 <div class="card-body">
@@ -15,7 +15,8 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    Admin Only !
+                    You have no permission here.
                 </div>
             </div>
         </div>

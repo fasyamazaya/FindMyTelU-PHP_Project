@@ -81,9 +81,9 @@ return [
             'deleted_at_helper' => '',
         ],
     ],
-    'shop'           => [
-        'title'          => 'Shops',
-        'title_singular' => 'Shop',
+    'place'           => [
+        'title'          => 'Places',
+        'title_singular' => 'Place',
         'fields'         => [
             'id'                   => 'ID',
             'id_helper'            => '',

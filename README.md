@@ -1,26 +1,26 @@
-# Laravel 8 Shops Map with Google Maps API and Adminpanel
+# Laravel 8 Places Map with Google Maps API and Adminpanel
 
 Transformed [free WordPress theme Directory Starter](https://wpgeodirectory.com/downloads/directory-starter/) into fully manageable Laravel 8 project with adminpanel generated with [QuickAdminPanel](https://quickadminpanel.com), 
-to manage all the shops.
+to manage all the places.
 
 ## Features
 
-- __Adminpanel__ with administrator user managing shops and categories
-- __Registration__ for shop owners who can manage their own shops - with __multi-tenancy__ included
+- __Adminpanel__ with administrator user managing places and categories
+- __Registration__ for place owners who can manage their own places - with __multi-tenancy__ included
 - Adminpanel uses Google Places API with autocomplete to __automatically get coordinates from address__
 - Adminpanel uses [Spatie Opening Hours package](https://github.com/spatie/opening-hours) to manage working hours
-- Front-end uses Google Maps API to __view the map of shops__
+- Front-end uses Google Maps API to __view the map of places__
 
 
 - - - - -
 
 ## Screenshots 
 
-![Laravel Shops Google Maps](https://laraveldaily.com/wp-content/uploads/2019/12/Screen-Shot-2019-12-11-at-10.58.07-AM.png)
+![Laravel Places Google Maps](https://laraveldaily.com/wp-content/uploads/2019/12/Screen-Shot-2019-12-11-at-10.58.07-AM.png)
 
 - - - - -
 
-![Laravel Shops Google Maps Autocomplete Address](https://laraveldaily.com/wp-content/uploads/2019/12/Screen-Shot-2019-12-11-at-11.00.12-AM.png)
+![Laravel Places Google Maps Autocomplete Address](https://laraveldaily.com/wp-content/uploads/2019/12/Screen-Shot-2019-12-11-at-11.00.12-AM.png)
 
 - - - - -
 
@@ -34,7 +34,7 @@ to manage all the shops.
 - In your __.env__ file add your Google Maps API key: `GOOGLE_MAPS_API_KEY=AIzaSyBi2dVBkdQSUcV8_xxxxxxxxxxxx`
 - That's it: launch the main URL. 
 - You can login to adminpanel by going go `/login` URL and login with credentials __admin@admin.com__ - __password__
-- Click __Register__ on top right to add new shop owner and their shops
+- Click __Register__ on top right to add new place owner and their places
 
 
 - - - - -

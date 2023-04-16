@@ -28,7 +28,7 @@ class CategoriesTableSeeder extends Seeder
             ],
             [
                 'id'    => '4',
-                'name' => 'Coffee Shop',
+                'name' => 'Coffee Place',
             ],
             [
                 'id'    => '5',

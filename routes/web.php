@@ -9,7 +9,11 @@ Route::get('/home', function () {
     return redirect()->route('home');
 });
 Route::get('/', 'HomeController@index')->name('home');
-Route::get('shop/{shop}', 'HomeController@show')->name('shop');
+Route::get('place/{place}', 'HomeController@show')->name('place');
+
+Route::get('/linkstorage', function () {
+    Artisan::call('storage:link');
+});
 
 Auth::routes();
 
@@ -31,10 +35,10 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::delete('categories/destroy', 'CategoriesController@massDestroy')->name('categories.massDestroy');
     Route::resource('categories', 'CategoriesController');
 
-    // Shops
-    Route::delete('shops/destroy', 'ShopsController@massDestroy')->name('shops.massDestroy');
-    Route::post('shops/media', 'ShopsController@storeMedia')->name('shops.storeMedia');
-    Route::resource('shops', 'ShopsController');
+    // Places
+    Route::delete('places/destroy', 'PlacesController@massDestroy')->name('places.massDestroy');
+    Route::post('places/media', 'PlacesController@storeMedia')->name('places.storeMedia');
+    Route::resource('places', 'PlacesController');
 });
     
 Route::group(['prefix' => 'user', 'as' => 'user.', 'namespace' => 'User', 'middleware' => ['auth']], function () {

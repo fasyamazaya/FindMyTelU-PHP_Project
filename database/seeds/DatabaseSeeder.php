@@ -14,8 +14,8 @@ class DatabaseSeeder extends Seeder
             RoleUserTableSeeder::class,
             DaysTableSeeder::class,
             CategoriesTableSeeder::class,
-            ShopsTableSeeder::class,
-            DayShopTableSeeder::class,
+            PlacesTableSeeder::class,
+            DayPlaceTableSeeder::class,
         ]);
     }
 }

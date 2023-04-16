@@ -24,8 +24,8 @@ class Category extends Model
         'deleted_at',
     ];
 
-    public function shops()
+    public function places()
     {
-        return $this->belongsToMany(Shop::class);
+        return $this->belongsToMany(Place::class);
     }
 }
