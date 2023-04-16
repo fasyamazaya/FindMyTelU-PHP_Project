@@ -1,14 +1,17 @@
-# Laravel 8 Places Map with Google Maps API and Adminpanel
+# Laravel 8 FindMyTelU Project = Places Map with Google Maps API and Adminpanel
 
-Transformed [free WordPress theme Directory Starter](https://wpgeodirectory.com/downloads/directory-starter/) into fully manageable Laravel 8 project with adminpanel generated with [QuickAdminPanel](https://quickadminpanel.com), 
-to manage all the places.
+## In collaborations with Zahwa Dewi Artika
+
+This project is transformed [free WordPress theme Directory Starter](https://wpgeodirectory.com/downloads/directory-starter/) into fully manageable Laravel 8 project with adminpanel generated with [QuickAdminPanel](https://quickadminpanel.com) to manage all the places.
+
+## Purposes
+Due to course project assignment "Aplikasi Berbasis Web" in semester 6 = Create website related to the campus environment using HTML, Javascript, css, bootstrap, and so on.
 
 ## Features
 
-- __Adminpanel__ with administrator user managing places and categories
-- __Registration__ for place owners who can manage their own places - with __multi-tenancy__ included
+- __Adminpanel__ with administrator user managing places, categories, and user settings.
+- __Registration__ for new members who are defaulted to user status.
 - Adminpanel uses Google Places API with autocomplete to __automatically get coordinates from address__
-- Adminpanel uses [Spatie Opening Hours package](https://github.com/spatie/opening-hours) to manage working hours
 - Front-end uses Google Maps API to __view the map of places__
 
 
@@ -16,7 +19,7 @@ to manage all the places.
 
 ## Screenshots 
 
-![Laravel Places Google Maps](https://laraveldaily.com/wp-content/uploads/2019/12/Screen-Shot-2019-12-11-at-10.58.07-AM.png)
+![Overview](https://drive.google.com/file/d/1fzDufhuRBPGiAQ_LULN6JWkJGf_0vtlx/view?usp=sharing)
 
 - - - - -
 
@@ -24,7 +27,7 @@ to manage all the places.
 
 - - - - -
 
-## How to use
+## How To Use
 
 - Clone the repository with __git clone__
 - Copy __.env.example__ file to __.env__ and edit database credentials there
@@ -39,23 +42,16 @@ to manage all the places.
 
 - - - - -
 
-## Helpful articles
+## Helpful Articles
 
 - [Laravel: Find Addresses with Coordinates via Google Maps API](https://laraveldaily.com/laravel-find-addresses-with-coordinates-via-google-maps-api/)
 
 
 - - - - -
 
-## License
 
-Basically, feel free to use and re-use any way you want.
+## References and Credit to
 
-- - - - -
-
-## More from our LaravelDaily Team
-
-- Check out our adminpanel generator [QuickAdminPanel](https://quickadminpanel.com)
-- Read our [Blog with Laravel Tutorials](https://laraveldaily.com)
-- FREE E-book: [50 Laravel Quick Tips (and counting)](https://laraveldaily.com/free-e-book-40-laravel-quick-tips-and-counting/)
-- Subscribe to our [YouTube channel Laravel Business](https://www.youtube.com/channel/UCTuplgOBi6tJIlesIboymGA)
-- Enroll in our [Laravel Online Courses](https://laraveldaily.teachable.com/)
+- Laravel-Shop-Maps-QuickAdminPanel (https://github.com/LaravelDaily/Laravel-Shops-Map-QuickAdminPanel)
+- QuickAdminPanel (https://quickadminpanel.com)
+- 
