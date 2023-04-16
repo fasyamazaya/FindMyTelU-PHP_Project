@@ -19,7 +19,7 @@ Due to course project assignment "Aplikasi Berbasis Web" in semester 6 = Create 
 
 ## Screenshots 
 
-![Overview](https://drive.google.com/file/d/1fzDufhuRBPGiAQ_LULN6JWkJGf_0vtlx/view?usp=sharing)
+![Overview](https://user-images.githubusercontent.com/90541985/232350640-e3ccb5c8-9335-4d8e-b521-d4656a54476d.png)
 
 - - - - -
 
