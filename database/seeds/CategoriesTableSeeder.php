@@ -28,7 +28,7 @@ class CategoriesTableSeeder extends Seeder
             ],
             [
                 'id'    => '4',
-                'name' => 'Coffee Place',
+                'name' => 'Cafe',
             ],
             [
                 'id'    => '5',
@@ -44,7 +44,7 @@ class CategoriesTableSeeder extends Seeder
             ],
             [
                 'id'    => '8',
-                'name' => 'Language Center',
+                'name' => 'Pusat Bahasa',
             ],
             [
                 'id'    => '9',
@@ -80,23 +80,23 @@ class CategoriesTableSeeder extends Seeder
             ],
             [
                 'id'    => '17',
-                'name' => '',
+                'name' => 'Kantin',
             ],
             [
                 'id'    => '18',
-                'name' => '',
+                'name' => 'Asrama',
             ],
             [
                 'id'    => '19',
-                'name' => '',
+                'name' => 'Gedung Serbaguna',
             ],
             [
                 'id'    => '20',
-                'name' => '',
+                'name' => 'Gedung Olahraga',
             ],
             [
                 'id'    => '21',
-                'name' => '',
+                'name' => 'Gate',
             ],
             [
                 'id'    => '22',

@@ -55,39 +55,61 @@ class PlacesTableSeeder extends Seeder
                 "longitude" => "107.628076"
             ],
             [
-                "name" => "Bandung Techno Park",
+                "name" => "Masjid Syamsul Ulum Telkom University",
                 "description" => "",
                 "address" => "Jl. Telekomunikasi, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40257",
-                "latitude" => "-6.970515",
-                "longitude" => "107.630321"
+                "latitude" => "-6.975528853281067",
+                "longitude" => "107.63228715063087"
             ],
             [
-                "name" => "Telkom University Convention Hall",
+                "name" => "Gedung Tokong Nanas",
                 "description" => "",
                 "address" => "Jl. Telekomunikasi No.20, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40267",
-                "latitude" => "-6.971419",
-                "longitude" => "107.631395"
+                "latitude" => "-6.972787023447546",
+                "longitude" => "107.62969663051702
+                "
             ],
             [
-                "name" => "Telkom University Sport Centre",
+                "name" => "Gedung Karang",
                 "description" => "",
                 "address" => "Jl. Telekomunikasi Jl. Terusan Buah Batu, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40257",
-                "latitude" => "-6.971610",
-                "longitude" => "107.628934"
+                "latitude" => "-6.975559814847304",
+                "longitude" => "107.63158097458823"
             ],
             [
-                "name" => "Gedung Tokong Nanas Telkom University",
+                "name" => "Gedung Panehan",
                 "description" => "",
-                "address" => "2JGH+RV6, Sukapura, Dayeuhkolot, Bandung Regency, West Java 40257",
-                "latitude" => "-6.972870",
-                "longitude" => "107.629900"
+                "address" => "Jl. Telekomunikasi No.1, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat",
+                "latitude" => "-6.975521832512069",
+                "longitude" => "107.63129667547787"
+            ],
+            [
+                "name" => "Gedung Panambulai",
+                "description" => "",
+                "address" => "Jl. Telekomunikasi No.1, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat",
+                "latitude" => "-6.975824640374241",
+                "longitude" => "107.63055996000993"
+            ],
+            [
+                "name" => "TelU Coffee",
+                "description" => "",
+                "address" => "Jl. Telekomunikasi No.1, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat",
+                "latitude" => "-6.973061470255623",
+                "longitude" => "107.62953161406766"
+            ],
+            [
+                "name" => "Open Library Telkom University",
+                "description" => "",
+                "address" => "Jl. Telekomunikasi No.1, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat",
+                "latitude" => "-6.971545904756654",
+                "longitude" => "107.63246561276381"
             ],
             [
                 "name" => "",
                 "description" => "",
-                "address" => "",
-                "latitude" => "51.51934869999999",
-                "longitude" => "-0.07468889999995554"
+                "address" => "Jl. Telekomunikasi No.1, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat",
+                "latitude" => "",
+                "longitude" => ""
             ],
         ];
         $currentAddress = 0;
