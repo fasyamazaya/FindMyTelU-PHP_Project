@@ -56,7 +56,7 @@ class CategoriesTableSeeder extends Seeder
             ],
             [
                 'id'    => '11',
-                'name' => 'Coworking Space',
+                'name' => 'Coworking Space / Ruang Kerja Bersama',
             ],
             [
                 'id'    => '12',
@@ -96,23 +96,27 @@ class CategoriesTableSeeder extends Seeder
             ],
             [
                 'id'    => '21',
-                'name' => 'Gate',
+                'name' => 'Klinik Kesehatan',
             ],
             [
                 'id'    => '22',
-                'name' => '',
+                'name' => 'TucTuc Stasiun',
             ],
             [
                 'id'    => '23',
-                'name' => '',
+                'name' => 'Gate In Motor',
             ],
             [
                 'id'    => '24',
-                'name' => '',
+                'name' => 'Gate Exit Motor',
             ],
             [
                 'id'    => '25',
-                'name' => '',
+                'name' => 'Gate In Mobil',
+            ],
+            [
+                'id'    => '26',
+                'name' => 'Gate Exit Mobil',
             ],
         ];
         Category::insert($categories);
